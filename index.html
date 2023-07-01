@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HiperSecurity</title>
+</head>
+<body>
+    <header class="copntainer-fluid ">
+        <div class="row h-100 ">
+            <div class="col-2  container-fluid h-100" >
+                <img class="img-fluid h-100 " src="./assets/img/Icono Grande.png" alt="">
+            </div>
+
+            <div class="col-10 position-relative ">
+                <ul class="nav justify-content-end column-gap-3 ">
+                    <li id="bor" class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li id="bor" class="nav-item">
+                        <a class="nav-link disabled" href="#">Contacto</a>
+                    </li>
+                    <li id="bor" class="nav-item">
+                        <a class="nav-link disabled" href="#">La Empresa</a>
+                    </li>
+                    <li id="bor" class="nav-item">
+                        <a class="nav-link disabled" href="#">Personal</a>
+                    </li>
+                    <li id="bor" class="nav-item">
+                        <a class="nav-link disabled" href="#">Servicios</a>
+                    </li>
+                </ul>
+            </div>
+            
+            
+        </div>
+
+    </header>
+    <main>
+        <aside>
+            <img src="./assets/img/guardia-seguridad-masculino-haciendo-su-trabajo-turno.jpg." alt="Guardia de seguridad">
+        </aside>
+
+        <section>
+            <div>
+                <form action="validar.php" method="get" enctype="multipart/form-data">
+                    <h2>Llámanos al (012) 3456-7890</h2>
+
+                    <input name="nombre" type="text" placeholder="Ingrese Nombre y Apellido" minlength="3" maxlength="50">
+                    <input name="Email" type="text" placeholder="Ingrese Su Email" minlength="5" maxlength="100" >
+                    <input name="telefono" type="number" placeholder="telefono" minlength="10" maxlength="15" >
+                    <input class="mensaje" name="testillo" type="text" placeholder="Mensaje" >
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+}
+
+main{
+    height: 80vh;
+}
+
+header{
+    height: 15vh;
+    background-color:rgb(171, 211, 247);
+}
+
+#caja {
+    background-color: aqua;
+}
+
+#bor {
+    border-radius: 6px;
+    border: 1px solid black;
+    
+}
+
+#caji {
+    color: darkgray;
+}
