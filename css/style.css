@@ -7,25 +7,44 @@ body{
     height: 100%;
 }
 
-main{
-    height: 80vh;
-}
-
 header{
-    height: 15vh;
+    height: 20vh;
     background-color:rgb(171, 211, 247);
 }
 
-#caja {
-    background-color: aqua;
+main{
+    height: 60vh;
 }
 
+footer {
+    height: 20vh;
+}
+#foot  {
+    padding-top: 4%;
+}
+
+#colorcillo {
+    color:rgb(171, 211, 247);
+}
+
+#lol {
+    
+    padding-top: 1%;
+}
+#lol button {
+    border: 1px solid rgb(171, 211, 247); ;
+    background-color:rgb(171, 211, 247); 
+}
 #bor {
+    padding: 3px;
     border-radius: 6px;
     border: 1px solid black;
-    
+
 }
 
-#caji {
-    color: darkgray;
+/* sacar botoncitos para subir y bajar del imput numerico */
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
 }
