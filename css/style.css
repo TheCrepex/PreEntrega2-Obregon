@@ -48,3 +48,17 @@ footer {
     -webkit-appearance: none !important;
     margin: 0;
 }
+
+#1 {
+    max-height: 70%;
+}
+
+#2 {
+    padding: 5%;
+    max-width: 70%;
+    height: 5vh;
+}
+
+#mainchico {
+    height: 80vh;
+}
