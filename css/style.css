@@ -53,6 +53,18 @@ footer {
     margin: 0;
 }
 
+.caj:hover .anim {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.caj {overflow:hidden;}
+#cajita {
+    border-style: solid;
+    color: aqua;
+}
+#cajita h1 {
+    color: black;
+}
+#cajita p {
+    color: black;
+}
 
 a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
