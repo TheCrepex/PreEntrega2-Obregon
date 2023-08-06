@@ -52,6 +52,10 @@ footer {
   border: 1px solid black;
 }
 
+#listilla {
+  list-style-type: none;
+}
+
 /* sacar botoncitos para subir y bajar del imput numerico */
 .no-spinner::-webkit-inner-spin-button,
 .no-spinner::-webkit-outer-spin-button {
